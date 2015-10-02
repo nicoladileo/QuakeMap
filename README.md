@@ -13,10 +13,9 @@ In order to run the application you can type "java -jar QuakeMap.jar". The jar f
 This application require Java 8.
 
 ## Screenshots ##
-Screen 1
-<a href="url"><img src="https://github.com/nicoladileo/QuakeMap/blob/master/screenshots/screen1.PNG" align="center" height="300" width="600" ></a>
 
-Screen 2
-<a href="url"><img src="https://github.com/nicoladileo/QuakeMap/blob/master/screenshots/screen2.PNG" align="center" height="300" width="600" ></a>
+<a href="url"><img src="https://github.com/nicoladileo/QuakeMap/blob/master/screenshots/screen1.PNG" align="center" height="350" width="700" ></a>
+
+<a href="url"><img src="https://github.com/nicoladileo/QuakeMap/blob/master/screenshots/screen2.PNG" align="center" height="350" width="700" ></a>
 
 
