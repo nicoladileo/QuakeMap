@@ -14,6 +14,9 @@ In order to run the application you can type "java -jar QuakeMap.jar". The jar f
 ## Screenshots ##
 <a href="url"><img src="https://github.com/nicoladileo/QuakeMap/blob/master/screenshots/screen1.PNG" align="center" height="400" width="800" ></a>
 
+
+
+
 <a href="url"><img src="https://github.com/nicoladileo/QuakeMap/blob/master/screenshots/screen2.PNG" align="center" height="400" width="800" ></a>
 
 
