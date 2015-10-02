@@ -1,0 +1,96 @@
+#headerLbl {
+    -fx-font-size: 34pt;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+#subHeaderLbl {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+#lblMap {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+#lblTable {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+#anchorPane {
+    -fx-background-color: #1D1D1D;
+}
+
+#tableView {
+    -fx-base: #1D1D1D;
+    -fx-background-color: #1D1D1D;
+    }
+    
+#tableView.column-header-background {
+    -fx-background-color: transparent;
+}
+
+#locCol {
+    -fx-alignment: CENTER_LEFT;
+}
+
+#latCol {
+    -fx-alignment: CENTER;
+}
+
+#lonCol {
+    -fx-alignment: CENTER;
+}
+
+#magCol {
+    -fx-alignment: CENTER;
+}
+
+#depthCol {
+    -fx-alignment: CENTER;
+}
+
+#lblLegend {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+#lblBlue {
+    -fx-font-size: 10pt;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+#lblGreen {
+    -fx-font-size: 10pt;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+#lblYellow {
+    -fx-font-size: 10pt;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+
+#lblRed {
+    -fx-font-size: 10pt;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}

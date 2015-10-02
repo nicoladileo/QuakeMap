@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import java.net.URL?>
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import com.lynden.gmapsfx.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="600.0" maxWidth="1200.0" prefHeight="600" prefWidth="1200" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.FXMLDocumentController">
+    <children>
+        <Label fx:id="headerLbl" text="Quake map" AnchorPane.leftAnchor="5"/>
+        <GoogleMapView fx:id="mapView" prefHeight="480" prefWidth="600" AnchorPane.leftAnchor="5" AnchorPane.topAnchor="80" />
+        <Label fx:id="lblMap" text="Map" AnchorPane.leftAnchor="5" AnchorPane.topAnchor="60" />
+        <Label fx:id="lblTable" text="Data table" AnchorPane.leftAnchor="650" AnchorPane.topAnchor="60" />
+        <Label fx:id="lblLegend" text="Legend:" AnchorPane.leftAnchor="5" AnchorPane.topAnchor="580" />
+        <Label fx:id="subHeaderLbl" text="Data from earthquake.usgs.gov - Updated on " AnchorPane.leftAnchor="650" AnchorPane.topAnchor="580"/>
+        <ImageView id="imbBlue" AnchorPane.leftAnchor="15" AnchorPane.topAnchor="610">    
+            <image>
+                <Image url="assets/blue.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="lblBlue" text="Selected quake" AnchorPane.leftAnchor="40" AnchorPane.topAnchor="615" />
+        <ImageView id="imgGreen" AnchorPane.leftAnchor="15" AnchorPane.topAnchor="650">    
+            <image>
+                <Image url="assets/green.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="lblGreen" text="Quake with magnitude less than 5" AnchorPane.leftAnchor="40" AnchorPane.topAnchor="655" />
+        <ImageView id="imgYellow" AnchorPane.leftAnchor="265" AnchorPane.topAnchor="610">    
+            <image>
+                <Image url="assets/yellow.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="lblYellow" text="Quake with magnitude between 5 and 8" AnchorPane.leftAnchor="290" AnchorPane.topAnchor="615" />
+        <ImageView id="imgRed" AnchorPane.leftAnchor="265" AnchorPane.topAnchor="650">    
+            <image>
+                <Image url="assets/red.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="lblRed" text="Quake with magnitude greater than 8" AnchorPane.leftAnchor="290" AnchorPane.topAnchor="655" />
+        <TableView fx:id="tableView" prefHeight="480" prefWidth="700" AnchorPane.leftAnchor="650" AnchorPane.topAnchor="80">
+            <columns>
+                <TableColumn fx:id="locCol" prefWidth="250" resizable="true" sortable="false" text="Location" />
+                <TableColumn fx:id="timeCol" prefWidth="250" resizable="true" sortable="false" text="Time" /> 
+                <TableColumn fx:id="latCol" prefWidth="50" resizable="true" sortable="false" text="Latitude" />
+                <TableColumn fx:id="lonCol" prefWidth="50" resizable="true" sortable="false" text="Longitude" />
+                <TableColumn fx:id="magCol" prefWidth="50" resizable="true" sortable="false" text="Magnitude" /> 
+                <TableColumn fx:id="depthCol" prefWidth="50" resizable="true" sortable="false" text="Depth (mt)" />   
+            </columns>
+            <stylesheets>
+                <URL value="@style.css" />
+            </stylesheets>
+        </TableView>     
+    </children>
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+</AnchorPane>
