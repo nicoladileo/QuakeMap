@@ -9,14 +9,14 @@ This application was written using Java 8 in conjunction with the graphics libra
 The Google Maps API has been integrated thanks to the work of Rob Terpilowski and Geoff Capper, found at [this link](https://github.com/rterp/GMapsFX)
 
 ## Usage ##
-In order to run the application you can type "java -jar QuakeMap.jar". The jar file is located under this [folder] (https://github.com/nicoladileo/QuakeMap/tree/master/dist)
+In order to run the application you can type "java -jar QuakeMap.jar". The jar file is located under this [folder] (https://github.com/nicoladileo/QuakeMap/tree/master/dist).
+This application require Java 8.
 
 ## Screenshots ##
-<a href="url"><img src="https://github.com/nicoladileo/QuakeMap/blob/master/screenshots/screen1.PNG" align="center" height="400" width="800" ></a>
+Screen 1
+<a href="url"><img src="https://github.com/nicoladileo/QuakeMap/blob/master/screenshots/screen1.PNG" align="center" height="300" width="600" ></a>
 
-
-
-
-<a href="url"><img src="https://github.com/nicoladileo/QuakeMap/blob/master/screenshots/screen2.PNG" align="center" height="400" width="800" ></a>
+Screen 2
+<a href="url"><img src="https://github.com/nicoladileo/QuakeMap/blob/master/screenshots/screen2.PNG" align="center" height="300" width="600" ></a>
 
 
